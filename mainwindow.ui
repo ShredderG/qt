@@ -1,0 +1,384 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>800</width>
+    <height>600</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <property name="windowIcon">
+   <iconset>
+    <normaloff>../build-opengl-Desktop_Qt_5_7_0_MSVC2015_64bit-Debug/Icons/window.ico</normaloff>../build-opengl-Desktop_Qt_5_7_0_MSVC2015_64bit-Debug/Icons/window.ico</iconset>
+  </property>
+  <property name="documentMode">
+   <bool>false</bool>
+  </property>
+  <property name="tabShape">
+   <enum>QTabWidget::Rounded</enum>
+  </property>
+  <widget class="QWidget" name="centralWidget">
+   <layout class="QGridLayout" name="gridLayout_3">
+    <property name="leftMargin">
+     <number>0</number>
+    </property>
+    <property name="topMargin">
+     <number>0</number>
+    </property>
+    <property name="rightMargin">
+     <number>0</number>
+    </property>
+    <property name="bottomMargin">
+     <number>0</number>
+    </property>
+    <item row="0" column="0">
+     <widget class="QTabWidget" name="tabWidget">
+      <property name="enabled">
+       <bool>true</bool>
+      </property>
+      <property name="currentIndex">
+       <number>5</number>
+      </property>
+      <property name="documentMode">
+       <bool>true</bool>
+      </property>
+      <property name="tabsClosable">
+       <bool>false</bool>
+      </property>
+      <widget class="QWidget" name="tab_textures">
+       <attribute name="icon">
+        <iconset>
+         <normaloff>../build-opengl-Desktop_Qt_5_7_0_MSVC2015_64bit-Debug/Icons/sprites.png</normaloff>../build-opengl-Desktop_Qt_5_7_0_MSVC2015_64bit-Debug/Icons/sprites.png</iconset>
+       </attribute>
+       <attribute name="title">
+        <string>Textures</string>
+       </attribute>
+       <layout class="QGridLayout" name="gridLayout_5">
+        <item row="0" column="0">
+         <layout class="QGridLayout" name="gridLayout_textures">
+          <item row="0" column="0">
+           <widget class="QListWidget" name="listWidget">
+            <property name="font">
+             <font>
+              <family>Consolas</family>
+             </font>
+            </property>
+           </widget>
+          </item>
+         </layout>
+        </item>
+       </layout>
+      </widget>
+      <widget class="QWidget" name="tab_sounds">
+       <attribute name="icon">
+        <iconset>
+         <normaloff>../build-opengl-Desktop_Qt_5_7_0_MSVC2015_64bit-Debug/Icons/sounds.png</normaloff>../build-opengl-Desktop_Qt_5_7_0_MSVC2015_64bit-Debug/Icons/sounds.png</iconset>
+       </attribute>
+       <attribute name="title">
+        <string>Sounds</string>
+       </attribute>
+       <layout class="QGridLayout" name="gridLayout_6">
+        <item row="0" column="0">
+         <layout class="QGridLayout" name="gridLayout_sounds"/>
+        </item>
+       </layout>
+      </widget>
+      <widget class="QWidget" name="tab_functions">
+       <attribute name="icon">
+        <iconset>
+         <normaloff>../build-opengl-Desktop_Qt_5_7_0_MSVC2015_64bit-Debug/Icons/functions.png</normaloff>../build-opengl-Desktop_Qt_5_7_0_MSVC2015_64bit-Debug/Icons/functions.png</iconset>
+       </attribute>
+       <attribute name="title">
+        <string>Functions</string>
+       </attribute>
+       <layout class="QGridLayout" name="gridLayout_8">
+        <item row="0" column="0">
+         <layout class="QGridLayout" name="gridLayout_functions"/>
+        </item>
+       </layout>
+      </widget>
+      <widget class="QWidget" name="tab_objects">
+       <attribute name="icon">
+        <iconset>
+         <normaloff>../build-opengl-Desktop_Qt_5_7_0_MSVC2015_64bit-Debug/Icons/objects.png</normaloff>../build-opengl-Desktop_Qt_5_7_0_MSVC2015_64bit-Debug/Icons/objects.png</iconset>
+       </attribute>
+       <attribute name="title">
+        <string>Objects</string>
+       </attribute>
+       <layout class="QGridLayout" name="gridLayout_10">
+        <item row="0" column="0">
+         <layout class="QGridLayout" name="gridLayout_objects"/>
+        </item>
+       </layout>
+      </widget>
+      <widget class="QWidget" name="tab_rooms">
+       <attribute name="icon">
+        <iconset>
+         <normaloff>../build-opengl-Desktop_Qt_5_7_0_MSVC2015_64bit-Debug/Icons/rooms.png</normaloff>../build-opengl-Desktop_Qt_5_7_0_MSVC2015_64bit-Debug/Icons/rooms.png</iconset>
+       </attribute>
+       <attribute name="title">
+        <string>Rooms</string>
+       </attribute>
+       <layout class="QGridLayout" name="gridLayout_2">
+        <item row="0" column="0">
+         <layout class="QGridLayout" name="gridLayout_rooms"/>
+        </item>
+       </layout>
+      </widget>
+      <widget class="QWidget" name="tab_compilation">
+       <attribute name="icon">
+        <iconset>
+         <normaloff>../build-opengl-Desktop_Qt_5_7_0_MSVC2015_64bit-Debug/Icons/compilation.png</normaloff>../build-opengl-Desktop_Qt_5_7_0_MSVC2015_64bit-Debug/Icons/compilation.png</iconset>
+       </attribute>
+       <attribute name="title">
+        <string>Compilation</string>
+       </attribute>
+       <widget class="QGroupBox" name="groupBox">
+        <property name="geometry">
+         <rect>
+          <x>20</x>
+          <y>20</y>
+          <width>281</width>
+          <height>271</height>
+         </rect>
+        </property>
+        <property name="title">
+         <string>Settings</string>
+        </property>
+        <layout class="QGridLayout" name="gridLayout">
+         <item row="2" column="0">
+          <widget class="QLabel" name="label">
+           <property name="text">
+            <string>Window width:</string>
+           </property>
+          </widget>
+         </item>
+         <item row="1" column="0">
+          <widget class="QLabel" name="label_2">
+           <property name="text">
+            <string>Window title:</string>
+           </property>
+          </widget>
+         </item>
+         <item row="7" column="0">
+          <widget class="QCheckBox" name="checkBoxCursor">
+           <property name="text">
+            <string>Display the cursor</string>
+           </property>
+           <property name="checked">
+            <bool>false</bool>
+           </property>
+          </widget>
+         </item>
+         <item row="2" column="1">
+          <widget class="QSpinBox" name="spinBoxWidth">
+           <property name="buttonSymbols">
+            <enum>QAbstractSpinBox::NoButtons</enum>
+           </property>
+           <property name="minimum">
+            <number>1</number>
+           </property>
+           <property name="maximum">
+            <number>9999</number>
+           </property>
+           <property name="value">
+            <number>800</number>
+           </property>
+          </widget>
+         </item>
+         <item row="3" column="1">
+          <widget class="QSpinBox" name="spinBoxHeight">
+           <property name="buttonSymbols">
+            <enum>QAbstractSpinBox::NoButtons</enum>
+           </property>
+           <property name="minimum">
+            <number>1</number>
+           </property>
+           <property name="maximum">
+            <number>9999</number>
+           </property>
+           <property name="value">
+            <number>600</number>
+           </property>
+          </widget>
+         </item>
+         <item row="5" column="0">
+          <widget class="QCheckBox" name="checkBoxFullscreen">
+           <property name="text">
+            <string>Start in fullscreen mode</string>
+           </property>
+          </widget>
+         </item>
+         <item row="3" column="0">
+          <widget class="QLabel" name="label_3">
+           <property name="text">
+            <string>Window height:</string>
+           </property>
+          </widget>
+         </item>
+         <item row="0" column="1">
+          <widget class="QPushButton" name="pushButtonIcon">
+           <property name="text">
+            <string>Choose...</string>
+           </property>
+          </widget>
+         </item>
+         <item row="0" column="0">
+          <widget class="QLabel" name="label_4">
+           <property name="text">
+            <string>Window icon:</string>
+           </property>
+          </widget>
+         </item>
+         <item row="1" column="1">
+          <widget class="QLineEdit" name="lineEditTitle">
+           <property name="text">
+            <string>Title</string>
+           </property>
+          </widget>
+         </item>
+         <item row="4" column="0">
+          <widget class="QLabel" name="label_5">
+           <property name="text">
+            <string>Fraps per second:</string>
+           </property>
+          </widget>
+         </item>
+         <item row="4" column="1">
+          <widget class="QSpinBox" name="spinBoxFps">
+           <property name="buttonSymbols">
+            <enum>QAbstractSpinBox::NoButtons</enum>
+           </property>
+           <property name="minimum">
+            <number>1</number>
+           </property>
+           <property name="maximum">
+            <number>9999</number>
+           </property>
+           <property name="value">
+            <number>60</number>
+           </property>
+          </widget>
+         </item>
+         <item row="6" column="0">
+          <widget class="QCheckBox" name="checkBoxTextures">
+           <property name="text">
+            <string>External textures</string>
+           </property>
+          </widget>
+         </item>
+         <item row="7" column="1">
+          <widget class="QCheckBox" name="checkBoxMinimize">
+           <property name="text">
+            <string>Minimizable window</string>
+           </property>
+          </widget>
+         </item>
+         <item row="6" column="1">
+          <widget class="QCheckBox" name="checkBoxResize">
+           <property name="text">
+            <string>Resizeable window</string>
+           </property>
+          </widget>
+         </item>
+         <item row="5" column="1">
+          <widget class="QCheckBox" name="checkBoxBorderless">
+           <property name="text">
+            <string>Borderless window</string>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </widget>
+       <widget class="QPushButton" name="pushButtonRun">
+        <property name="geometry">
+         <rect>
+          <x>380</x>
+          <y>60</y>
+          <width>91</width>
+          <height>31</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>Compile</string>
+        </property>
+        <property name="icon">
+         <iconset>
+          <normaloff>../build-GM-Desktop_Qt_5_5_0_MinGW_32bit-Debug/Icons/film.png</normaloff>../build-GM-Desktop_Qt_5_5_0_MinGW_32bit-Debug/Icons/film.png</iconset>
+        </property>
+       </widget>
+      </widget>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QMenuBar" name="menuBar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>800</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menu">
+    <property name="title">
+     <string>File</string>
+    </property>
+    <addaction name="actionCreate"/>
+    <addaction name="actionOpen"/>
+    <addaction name="separator"/>
+    <addaction name="actionExit"/>
+   </widget>
+   <widget class="QMenu" name="menu_2">
+    <property name="title">
+     <string>Help</string>
+    </property>
+    <addaction name="actionDocumentation"/>
+    <addaction name="actionAbout"/>
+   </widget>
+   <addaction name="menu"/>
+   <addaction name="menu_2"/>
+  </widget>
+  <action name="actionDocumentation">
+   <property name="text">
+    <string>Documentation</string>
+   </property>
+  </action>
+  <action name="actionAbout">
+   <property name="text">
+    <string>About</string>
+   </property>
+  </action>
+  <action name="actionCreate">
+   <property name="text">
+    <string>Create project</string>
+   </property>
+   <property name="toolTip">
+    <string>Create project</string>
+   </property>
+  </action>
+  <action name="actionOpen">
+   <property name="text">
+    <string>Open project</string>
+   </property>
+   <property name="toolTip">
+    <string>Open project</string>
+   </property>
+  </action>
+  <action name="actionExit">
+   <property name="text">
+    <string>Exit</string>
+   </property>
+  </action>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <resources/>
+ <connections/>
+</ui>
