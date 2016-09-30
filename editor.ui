@@ -69,7 +69,7 @@
          </property>
          <property name="icon">
           <iconset>
-           <normaloff>../build-opengl-Desktop_Qt_5_7_0_MSVC2015_64bit-Debug/Icons/indent.png</normaloff>../build-opengl-Desktop_Qt_5_7_0_MSVC2015_64bit-Debug/Icons/indent.png</iconset>
+           <normaloff>Icons/indent.png</normaloff>Icons/indent.png</iconset>
          </property>
         </widget>
        </item>
@@ -86,7 +86,7 @@
          </property>
          <property name="icon">
           <iconset>
-           <normaloff>../build-opengl-Desktop_Qt_5_7_0_MSVC2015_64bit-Debug/Icons/cancel.png</normaloff>../build-opengl-Desktop_Qt_5_7_0_MSVC2015_64bit-Debug/Icons/cancel.png</iconset>
+           <normaloff>Icons/cancel.png</normaloff>Icons/cancel.png</iconset>
          </property>
         </widget>
        </item>
@@ -103,7 +103,7 @@
          </property>
          <property name="icon">
           <iconset>
-           <normaloff>../build-opengl-Desktop_Qt_5_7_0_MSVC2015_64bit-Debug/Icons/save.png</normaloff>../build-opengl-Desktop_Qt_5_7_0_MSVC2015_64bit-Debug/Icons/save.png</iconset>
+           <normaloff>Icons/save.png</normaloff>Icons/save.png</iconset>
          </property>
         </widget>
        </item>

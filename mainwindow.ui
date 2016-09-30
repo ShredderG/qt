@@ -15,7 +15,7 @@
   </property>
   <property name="windowIcon">
    <iconset>
-    <normaloff>../build-opengl-Desktop_Qt_5_7_0_MSVC2015_64bit-Debug/Icons/window.ico</normaloff>../build-opengl-Desktop_Qt_5_7_0_MSVC2015_64bit-Debug/Icons/window.ico</iconset>
+    <normaloff>Icons/window.ico</normaloff>Icons/window.ico</iconset>
   </property>
   <property name="documentMode">
    <bool>false</bool>
@@ -43,7 +43,7 @@
        <bool>true</bool>
       </property>
       <property name="currentIndex">
-       <number>5</number>
+       <number>0</number>
       </property>
       <property name="documentMode">
        <bool>true</bool>
@@ -54,7 +54,7 @@
       <widget class="QWidget" name="tab_textures">
        <attribute name="icon">
         <iconset>
-         <normaloff>../build-opengl-Desktop_Qt_5_7_0_MSVC2015_64bit-Debug/Icons/sprites.png</normaloff>../build-opengl-Desktop_Qt_5_7_0_MSVC2015_64bit-Debug/Icons/sprites.png</iconset>
+         <normaloff>Icons/sprites.png</normaloff>Icons/sprites.png</iconset>
        </attribute>
        <attribute name="title">
         <string>Textures</string>
@@ -78,7 +78,7 @@
       <widget class="QWidget" name="tab_sounds">
        <attribute name="icon">
         <iconset>
-         <normaloff>../build-opengl-Desktop_Qt_5_7_0_MSVC2015_64bit-Debug/Icons/sounds.png</normaloff>../build-opengl-Desktop_Qt_5_7_0_MSVC2015_64bit-Debug/Icons/sounds.png</iconset>
+         <normaloff>Icons/sounds.png</normaloff>Icons/sounds.png</iconset>
        </attribute>
        <attribute name="title">
         <string>Sounds</string>
@@ -92,7 +92,7 @@
       <widget class="QWidget" name="tab_functions">
        <attribute name="icon">
         <iconset>
-         <normaloff>../build-opengl-Desktop_Qt_5_7_0_MSVC2015_64bit-Debug/Icons/functions.png</normaloff>../build-opengl-Desktop_Qt_5_7_0_MSVC2015_64bit-Debug/Icons/functions.png</iconset>
+         <normaloff>Icons/cog.png</normaloff>Icons/cog.png</iconset>
        </attribute>
        <attribute name="title">
         <string>Functions</string>
@@ -106,7 +106,7 @@
       <widget class="QWidget" name="tab_objects">
        <attribute name="icon">
         <iconset>
-         <normaloff>../build-opengl-Desktop_Qt_5_7_0_MSVC2015_64bit-Debug/Icons/objects.png</normaloff>../build-opengl-Desktop_Qt_5_7_0_MSVC2015_64bit-Debug/Icons/objects.png</iconset>
+         <normaloff>Icons/objects.png</normaloff>Icons/objects.png</iconset>
        </attribute>
        <attribute name="title">
         <string>Objects</string>
@@ -120,7 +120,7 @@
       <widget class="QWidget" name="tab_rooms">
        <attribute name="icon">
         <iconset>
-         <normaloff>../build-opengl-Desktop_Qt_5_7_0_MSVC2015_64bit-Debug/Icons/rooms.png</normaloff>../build-opengl-Desktop_Qt_5_7_0_MSVC2015_64bit-Debug/Icons/rooms.png</iconset>
+         <normaloff>Icons/rooms.png</normaloff>Icons/rooms.png</iconset>
        </attribute>
        <attribute name="title">
         <string>Rooms</string>
@@ -134,7 +134,7 @@
       <widget class="QWidget" name="tab_compilation">
        <attribute name="icon">
         <iconset>
-         <normaloff>../build-opengl-Desktop_Qt_5_7_0_MSVC2015_64bit-Debug/Icons/compilation.png</normaloff>../build-opengl-Desktop_Qt_5_7_0_MSVC2015_64bit-Debug/Icons/compilation.png</iconset>
+         <normaloff>Icons/compilation.png</normaloff>Icons/compilation.png</iconset>
        </attribute>
        <attribute name="title">
         <string>Compilation</string>
@@ -310,7 +310,7 @@
         </property>
         <property name="icon">
          <iconset>
-          <normaloff>../build-GM-Desktop_Qt_5_5_0_MinGW_32bit-Debug/Icons/film.png</normaloff>../build-GM-Desktop_Qt_5_5_0_MinGW_32bit-Debug/Icons/film.png</iconset>
+          <normaloff>Icons/film.png</normaloff>Icons/film.png</iconset>
         </property>
        </widget>
       </widget>
